@@ -241,11 +241,11 @@ p.clave-de-usuario strong {
     color: #06234a;
 }
 .sms-texto{
-  
+
 font-size: 16px;
-  
+
 line-height: 1.5;
-  
+
 padding-top: 40px;
 }
 
@@ -328,6 +328,38 @@ strong{
     text-align: left;
     color: #06234a;
 }
+
+td.datos-documento {
+    padding: 0;
+}
+
+#primerFirmante div {
+    text-align: left;
+}
+
+#primerFirmante div h4,#primerFirmante div .h4 {
+    text-align: left;
+    margin: 30px 0 0;
+}
+
+#primerFirmante {
+    max-width: 740px;
+}
+
+#primerFirmante td {
+    padding: 0;
+}
+
+#primerFirmante td.firmantes-orden {
+    max-width: 320px;
+}
+.datos-documento div{
+    padding-top:20px;
+}
+.datos-documento div p {
+    margin: 0;
+    margin-bottom: 5px;
+}
 /**
 * @tab Footer
 * @section footer style
@@ -393,12 +425,9 @@ strong{
   line-height: 1.5;
 }
 .disclaimer_codigos div{
-
-font-size: 14px;
-
-margin-bottom: 20px;
-
-line-height: 1.29;
+font-size: 14px;
+margin-bottom: 20px;
+line-height: 18px;
 }
 
 .disclaimer_informacion div p{
@@ -411,4 +440,82 @@ line-height: 1.29;
   margin-bottom:20px;
   font-size: 14px;
   line-height: 1.29;
+}
+
+
+#contenidoPrimerFirma {
+    max-width: 656px;
+    border-radius: 8px;
+    border: solid 1px #06234a;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#contenidoPrimerFirma div {
+    text-align: center;
+}
+
+p.primer-firmante-tit {
+    margin: 20px 0 20px;
+    font-size: 20px;
+    color: #06234a;
+}
+
+#firmantes {
+    max-width: 460px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#firmantes div {
+    text-align: left;
+}
+
+td.firmantes-orden p.firmantes-head {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+td.firmantes-orden p.firmante {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+p.leyenda-after-firmas {
+    margin: 0 20px 20px;
+    font-size: 14px;
+}
+
+#pieFirmantes {
+    max-width: 675px;
+    margin-bottom: 20px;
+}
+
+#pieFirmantes div {
+    text-align: center;
+}
+
+
+#primerFirmante td.recomendamos {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#noApp {
+    margin-top: 30px;
+    max-width: 285px;
+    margin-bottom: 30px;
+}
+
+#noApp div {
+    text-align: center;
+}
+
+p.leyenda-final-proceso {
+    margin: 20px auto 30px;
+    text-align: left;
+    max-width: 707px;
+    font-size: 16px;
+    line-height: 1.63;
 }
