@@ -198,6 +198,34 @@ h4, .h4{
     max-width: 350px;
 }
 
+.claveUsuario{
+  padding: 0;
+}
+#contenidoRegistro{
+  max-width: 383px;
+  border-radius: 8px;
+  border: solid 1px #06234a;
+}
+
+#contenidoRegistro div {
+    padding: 0 20px;
+}
+p.clave-de-usuario{
+  text-align: left;
+  font-size: 18px;
+}
+.sms-texto{
+  font-size: 16px;
+  line-height: 1.5;
+  padding-top: 40px;
+}
+
+.sms-texto p {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 5px;
+}
 #scanImage{
   height:auto;
   max-width:265px !important;
@@ -322,7 +350,7 @@ strong{
 }
 .disclaimer_dudas div{
   color: #252525;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -343,4 +371,6 @@ line-height: 1.29;
 }
 .disclaimer_informacion div{
   margin-bottom:20px;
+  font-size: 14px;
+  line-height: 1.29;
 }
