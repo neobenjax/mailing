@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'ProximaNova';
-    src: url("fonts/ProximaNova-Regular.otf") format("opentype");
+    src: url("https://neobenjax.github.io/mailing/fonts/ProximaNova-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: 'ProximaNova-Bold';
-    src: url("fonts/ProximaNova-Bold.otf") format("opentype");
+    src: url("https://neobenjax.github.io/mailing/fonts/ProximaNova-Bold.otf") format("opentype");
 }
 
 @font-face {
     font-family: 'ProximaNova-Semibold';
-    src: url("fonts/ProximaNova-Semibold.otf") format("opentype");
+    src: url("https://neobenjax.github.io/mailing/fonts/ProximaNova-Semibold.otf") format("opentype");
 }
 
 @font-face {
     font-family: 'ProximaNova-Light';
-    src: url("fonts/ProximaNova-Light.otf") format("opentype");
+    src: url("https://neobenjax.github.io/mailing/fonts/ProximaNova-Light.otf") format("opentype");
 }
 
 
@@ -186,6 +186,7 @@ h4, .h4{
 .bodyContent img{
   display:inline;
   height:auto;
+  height: auto;
 }
 
 .subBodyContent div{
