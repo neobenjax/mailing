@@ -200,6 +200,27 @@ h4, .h4{
 
 .claveUsuario{
   padding: 0;
+  padding-bottom: 20px;
+}
+
+.claveUsuario #contenidoReecuperar {
+    max-width: 708px;
+}
+
+.claveUsuario #contenidoReecuperar .datos-registro div {padding-left: 20px;}
+
+.claveUsuario #contenidoReecuperar .datos-registro div p.datos-reecupera {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.claveUsuario #contenidoReecuperar .datos-registro div p.datos-reecupera strong {
+    color: #06234a;
+}
+
+.claveUsuario div {
+    text-align: left;
+    margin-bottom: 0px;
 }
 #contenidoRegistro{
   max-width: 383px;
@@ -208,16 +229,24 @@ h4, .h4{
 }
 
 #contenidoRegistro div {
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 p.clave-de-usuario{
   text-align: left;
   font-size: 18px;
+  margin: 0;
+}
+
+p.clave-de-usuario strong {
+    color: #06234a;
 }
 .sms-texto{
-  font-size: 16px;
-  line-height: 1.5;
-  padding-top: 40px;
+  
+font-size: 16px;
+  
+line-height: 1.5;
+  
+padding-top: 40px;
 }
 
 .sms-texto p {
@@ -289,6 +318,15 @@ strong{
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 5px;
+}
+
+#bienvenidaReestablecer{
+  max-width: 760px;
+}
+
+#bienvenidaReestablecer div h4, #bienvenidaReestablecer div .h4 {
+    text-align: left;
+    color: #06234a;
 }
 /**
 * @tab Footer
