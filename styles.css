@@ -190,6 +190,8 @@ h4, .h4{
 
 .subBodyContent div{
   text-align: center;
+  font-size: 18px;
+  line-height: 1.33;
 }
 #contenidoBody1 {
     max-width: 350px;
@@ -198,6 +200,7 @@ h4, .h4{
 #scanImage{
   height:auto;
   max-width:265px !important;
+  margin-bottom: 30px;
 }
 #btn_comienza{
   height:auto;
@@ -226,6 +229,13 @@ h4, .h4{
 #bodySombreado{
   max-width: 745px;
 }
+#bodySombreado .crea{
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+#bodySombreado .recuerda{
+  font-size: 20px;
+}
 .bg-gris{
   background-color: #f9f9f9;
 }
@@ -243,6 +253,12 @@ strong{
 }
 #logosTiendas table td.logo{
   text-align: center;
+}
+.firma-contratos p{
+  margin-top:0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 5px;
 }
 /**
 * @tab Footer
@@ -309,11 +325,11 @@ strong{
   line-height: 1.5;
 }
 .disclaimer_codigos div{
-  
+
 font-size: 14px;
-  
+
 margin-bottom: 20px;
-  
+
 line-height: 1.29;
 }
 
