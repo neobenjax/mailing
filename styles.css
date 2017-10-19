@@ -48,7 +48,7 @@ body, #backgroundTable{
 h1, .h1{
   /*@editable*/ color:#202020;
   display:block;
-  font-family: 'ProximaNova-Bold';
+  font-family: 'ProximaNova-Bold',sans-serif;
   /*@editable*/ font-size:34px;
   /*@editable*/ font-weight:bold;
   /*@editable*/ line-height:100%;
@@ -62,7 +62,7 @@ h1, .h1{
 h2, .h2{
   /*@editable*/ color:#202020;
   display:block;
-  font-family: 'ProximaNova-Bold';
+  font-family: 'ProximaNova-Bold',sans-serif;
   /*@editable*/ font-size:30px;
   /*@editable*/ font-weight:bold;
   /*@editable*/ line-height:100%;
@@ -76,7 +76,7 @@ h2, .h2{
 h3, .h3{
   color: #252525;
   display:block;
-  font-family: 'ProximaNova-Bold';
+  font-family: 'ProximaNova-Bold',sans-serif;
   font-size: 22px;
   /*@editable*/ font-weight:bold;
   /*@editable*/ line-height:100%;
@@ -90,7 +90,7 @@ h3, .h3{
 h4, .h4{
   color: #06234a;
   display:block;
-  font-family: 'ProximaNova-Bold';
+  font-family: 'ProximaNova-Bold',sans-serif;
   font-size: 20px;
   /*@editable*/ font-weight:bold;
   /*@editable*/ line-height:100%;
@@ -118,9 +118,9 @@ h4, .h4{
 }
 
 .preheaderContent div a:link, .preheaderContent div a:visited, /* Yahoo! Mail Override */ .preheaderContent div a .yshortcuts /* Yahoo! Mail Override */{
-  /*@editable*/ color:#b88b91;
+  /*@editable*/ color:#9f011f;
   /*@editable*/ font-weight:normal;
-  /*@editable*/ text-decoration:underline;
+  /*@editable*/ text-decoration:none;
 }
 
 #templateHeader{
@@ -139,9 +139,9 @@ h4, .h4{
 }
 
 .headerContent a:link, .headerContent a:visited, /* Yahoo! Mail Override */ .headerContent a .yshortcuts /* Yahoo! Mail Override */{
-  /*@editable*/ color:#b88b91;
+  /*@editable*/ color:#9f011f;
   /*@editable*/ font-weight:normal;
-  /*@editable*/ text-decoration:underline;
+  /*@editable*/ text-decoration:none;
 }
 
 #headerImage{
@@ -229,6 +229,21 @@ h4, .h4{
 .bg-gris{
   background-color: #f9f9f9;
 }
+strong{
+  font-family: 'ProximaNova-Bold',sans-serif;
+  font-weight: bold;
+}
+
+#logosTiendas{
+  padding: 0;
+}
+#logosTiendas table{
+  max-width: 400px;
+
+}
+#logosTiendas table td.logo{
+  text-align: center;
+}
 /**
 * @tab Footer
 * @section footer style
@@ -265,9 +280,12 @@ h4, .h4{
 * @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
 */
 .footerContent div a:link, .footerContent div a:visited, /* Yahoo! Mail Override */ .footerContent div a .yshortcuts /* Yahoo! Mail Override */{
-  /*@editable*/ color:#b88b91;
-  /*@editable*/ font-weight:normal;
-  /*@editable*/ text-decoration:underline;
+  /*@editable*/
+  color:#9f011f;
+  /*@editable*/
+  font-weight:normal;
+  /*@editable*/
+  text-decoration: none;
 }
 
 .footerContent img{
@@ -279,20 +297,24 @@ h4, .h4{
 }
 
 .disclaimer_cuenta div{
-  color: #5d5d5d;
-  font-family:Arial;
-  font-size: 18px;
-  margin-bottom:5px;
+  color: #252525;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .disclaimer_dudas div{
-  color: #5d5d5d;
-  font-family:Arial;
-  font-size: 18px;
+  color: #252525;
   margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .disclaimer_codigos div{
-  font-size: 13px;
-  margin-bottom: 20px;
+  
+font-size: 14px;
+  
+margin-bottom: 20px;
+  
+line-height: 1.29;
 }
 
 .disclaimer_informacion div p{
@@ -300,4 +322,7 @@ h4, .h4{
   margin-right: 0;
   margin-top: 0;
   margin-bottom: 5px;
+}
+.disclaimer_informacion div{
+  margin-bottom:20px;
 }
