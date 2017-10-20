@@ -455,6 +455,16 @@ td.datos-documento {
     text-align: center;
 }
 
+#contenidoSiguienteFirma {
+    max-width: 656px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#contenidoSiguienteFirma div {
+    text-align: center;
+}
+
 p.primer-firmante-tit {
     margin: 20px 0 20px;
     font-size: 20px;
@@ -465,6 +475,10 @@ p.primer-firmante-tit {
     max-width: 460px;
     margin-top: 30px;
     margin-bottom: 20px;
+}
+
+#contenidoSiguienteFirma #firmantes {
+    margin-top: 10px;
 }
 
 #firmantes div {
@@ -518,4 +532,29 @@ p.leyenda-final-proceso {
     max-width: 707px;
     font-size: 16px;
     line-height: 1.63;
+}
+
+
+#appsSiguientes {
+    margin-top: 20px;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+#appsSiguientes div {
+    text-align: center;
+}
+
+#appsSiguientes #logosTiendas {
+    padding-top: 30px;
+}
+
+#appsSiguientes td#logosTiendas table {
+    padding-top: 30px;
+    border-top: 1px solid #d0d8de;
+}
+
+p.si-ya-cuentas {
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
