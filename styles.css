@@ -662,7 +662,7 @@ table.descrip_fad_firmantes div p.prev-firmas {
 }
 
 
-.datos-documento {
+.datos-documento-finalizado {
     max-width: 536px;
     border-radius: 8px;
     border: solid 1px #06234a;
@@ -676,15 +676,15 @@ p.documento-firmado {
     margin: 10px 0;
 }
 
-.datos-documento td.datos-doc {
+.datos-documento-finalizado td.datos-doc {
     padding: 10px 10px 20px!important;
 }
 
-.datos-documento td.datos-doc p {
+.datos-documento-finalizado td.datos-doc p {
     margin: 5px 0 10px;
 }
 
-.datos-documento td.datos-doc._imagen {
+.datos-documento-finalizado td.datos-doc._imagen {
     text-align: center;
     width: 150px;
 }
