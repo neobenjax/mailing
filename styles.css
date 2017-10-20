@@ -101,10 +101,7 @@ h4, .h4{
   /*@editable*/ text-align:center;
 }
 
-#templatePreheader{
-
-}
-#preheaderImage{
+#preheaderImage,.preheaderImage{
   height:auto;
   max-width:127px !important;
 }
@@ -255,7 +252,7 @@ padding-top: 40px;
     margin-right: 0;
     margin-bottom: 5px;
 }
-#scanImage{
+#scanImage,.scanImage{
   height:auto;
   max-width:265px !important;
   margin-bottom: 30px;
@@ -284,14 +281,14 @@ padding-top: 40px;
 }
 
 
-#bodySombreado{
+#bodySombreado, .bodySombreado{
   max-width: 745px;
 }
-#bodySombreado .crea{
+#bodySombreado .crea, .bodySombreado .crea{
   font-size: 18px;
   margin-bottom: 15px;
 }
-#bodySombreado .recuerda{
+#bodySombreado .recuerda, .bodySombreado .recuerda{
   font-size: 20px;
   margin: 10px 0;
 }
@@ -718,4 +715,31 @@ span.blue {
 p.importante {
     font-size: 14px;
     margin: 0 0 10px;
+}
+@media screen and (max-width: 480px) {
+  h1, .h1{font-size:28px;}
+  h2, .h2{font-size:26px;}
+  h3, .h3{font-size: 20px;}
+  h4, .h4{font-size: 18px;}
+
+  #preheaderImage,.preheaderImage{
+    max-width:80px !important;
+  }
+  .disclaimer_cuenta div,
+  .disclaimer_dudas div {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .disclaimer_codigos div,
+  .disclaimer_informacion div{
+    font-size: 12px;
+  }
+  .subBodyContent div {font-size: 15px;}
+  #bodySombreado .crea,.bodySombreado .crea {font-size: 16px;margin-bottom: 10px;}
+  #scanImage, .scanImage{max-width:200px!important;margin-bottom: 20px;}
+  #bodySombreado .recuerda, .bodySombreado .recuerda {
+      font-size: 18px;
+  }
+
 }
