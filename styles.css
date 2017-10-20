@@ -608,9 +608,12 @@ p.descarga-la-aplicacion {
 }
 
 
+#primerFirmante td.firma_ubicacion,
 td.firma_ubicacion {
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .contenidoUbicacion {
@@ -645,6 +648,8 @@ p.tu-turno-final {
     font-size: 20px;
     margin: 0;
     margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 p.tu-turno-final strong {
