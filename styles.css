@@ -219,13 +219,13 @@ h4, .h4{
     text-align: left;
     margin-bottom: 0px;
 }
-#contenidoRegistro{
+#contenidoRegistro,.contenidoRegistro{
   max-width: 383px;
   border-radius: 8px;
   border: solid 1px #06234a;
 }
 
-#contenidoRegistro div {
+#contenidoRegistro div,.contenidoRegistro div{
     padding: 10px 20px;
 }
 p.clave-de-usuario{
@@ -363,13 +363,14 @@ td.datos-documento {
 * @theme footer
 */
 #templateFooter{
-  /*@editable*/
-  background-color:#FFFFFF;
-  /*@editable*/
-  border-top: 1px;
-  border-color: #e3e3e3;
-  border-style: solid;
-  max-width: 750px;
+    background-color: #FFFFFF;
+    border-top: 1px;
+    border-color: #e3e3e3;
+    border-style: solid;
+    max-width: 750px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
 }
 
 /**
@@ -741,5 +742,19 @@ p.importante {
   #bodySombreado .recuerda, .bodySombreado .recuerda {
       font-size: 18px;
   }
+  p.clave-de-usuario{font-size: 16px;text-align: center;}
+  p.clave-de-usuario strong {display:block;}
+  td.inRowMobile{display:block!important;width:100%!important;}
+  #contenidoRegistro div, .contenidoRegistro div{
+    text-align:center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+  }
+  .sms-texto {font-size: 14px;padding-top: 20px;}
+  .sms-texto p{font-size:14px;}
+  #contenidoRegistro, .contenidoRegistro{
+    max-width:95%;
+  }
+
 
 }
