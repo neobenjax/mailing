@@ -772,6 +772,12 @@ p.importante {
   #primerFirmante td.firmantes-orden {
       max-width: 100%;
   }
+  td.adjunto-ico {
+    padding: 10px 10px 10px;
+  }
+  td.adjunto-info{
+    padding: 10px 10px 10px;
+  }
 
 
 }
