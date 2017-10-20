@@ -152,7 +152,8 @@ h4, .h4{
 * @tip Set the background color for your email's body area.
 */
 #templateContainer, .bodyContent{
-  /*@editable*/ background-color:#FFFFFF;
+  /*@editable*/
+  background-color:#FFFFFF;
 }
 
 /**
@@ -347,6 +348,11 @@ td.datos-documento {
 
 #primerFirmante td {
     padding: 0;
+}
+#primerFirmante td.spaceMobile,
+td.spaceMobile {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #primerFirmante td.firmantes-orden {
@@ -719,7 +725,7 @@ p.importante {
     font-size: 14px;
     margin: 0 0 10px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   h1, .h1{font-size:28px;}
   h2, .h2{font-size:26px;}
   h3, .h3{font-size: 20px;}
@@ -757,6 +763,10 @@ p.importante {
   }
   .sms-texto {font-size: 14px;padding-top: 20px;}
   .sms-texto p{font-size:14px;}
+  #firmantes div {text-align: center;}
+  #primerFirmante td.firmantes-orden {
+      max-width: 100%;
+  }
 
 
 }
