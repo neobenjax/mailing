@@ -29,7 +29,7 @@ img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;
 a img{border:0 none;}
 table td{border-collapse:collapse;}
 #backgroundTable{height:100% !important; margin:0; padding:0; width:100% !important;max-width: 900px!important;}
-a.red{
+.red{
   color:#9f011f!important;
 }
 
@@ -358,7 +358,6 @@ td.datos-documento {
 }
 .datos-documento div p {
     margin: 0;
-    margin-bottom: 5px;
 }
 /**
 * @tab Footer
@@ -425,9 +424,12 @@ td.datos-documento {
   line-height: 1.5;
 }
 .disclaimer_codigos div{
-font-size: 14px;
-margin-bottom: 20px;
-line-height: 18px;
+
+font-size: 14px;
+
+margin-bottom: 20px;
+
+line-height: 18px;
 }
 
 .disclaimer_informacion div p{
@@ -510,6 +512,20 @@ p.leyenda-after-firmas {
     text-align: center;
 }
 
+#pieUbicacionFirmantes {
+    margin-bottom: 20px;
+    max-width: 740px;
+}
+
+table#pieUbicacionFirmantes.multiples-firmantes {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#pieUbicacionFirmantes div {
+    text-align: left;
+}
+
 
 #primerFirmante td.recomendamos {
     padding-top: 30px;
@@ -532,6 +548,10 @@ p.leyenda-final-proceso {
     max-width: 707px;
     font-size: 16px;
     line-height: 1.63;
+}
+
+#pieUbicacionFirmantes p.leyenda-final-proceso {
+    max-width: 100%;
 }
 
 
@@ -579,4 +599,123 @@ p.descarga-la-aplicacion {
 #tiendasTurno {
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+
+td.firma_ubicacion {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contenidoUbicacion {
+    max-width: 536px;
+    border-radius: 8px;
+    border: solid 1px #06234a;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.contenidoUbicacion.multiples {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contenidoUbicacion td {
+    padding: 10px!important;
+}
+
+.contenidoUbicacion td.mapa {
+    text-align: center;
+}
+
+p.data-ubicacion {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+p.tu-turno-final {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+p.tu-turno-final strong {
+    color: #06234a;
+}
+
+table.descrip_fad_firmantes div p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+table.descrip_fad_firmantes div p.prev-firmas {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.descrip_fad_firmantes {
+    margin-top: 20px;
+}
+
+
+.datos-documento {
+    max-width: 536px;
+    border-radius: 8px;
+    border: solid 1px #06234a;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+p.documento-firmado {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.datos-documento td.datos-doc {
+    padding: 10px 10px 20px!important;
+}
+
+.datos-documento td.datos-doc p {
+    margin: 5px 0 10px;
+}
+
+.datos-documento td.datos-doc._imagen {
+    text-align: center;
+    width: 150px;
+}
+
+table.documentos-adjuntos {
+    max-width: 550px;
+}
+
+td.adjunto-ico {
+    width: 100px;
+    text-align: center;
+    padding: 30px 10px 30px;
+}
+
+td.adjunto-info {
+    padding: 30px 10px 30px;
+}
+
+td.adjunto-info p {
+    margin: 0px 0 10px;
+}
+
+td.adjunto-info p.identado {
+    margin-left: 20px;
+}
+
+span.blue {
+    color: #06234a;
+}
+
+p.importante {
+    font-size: 14px;
+    margin: 0 0 10px;
 }
