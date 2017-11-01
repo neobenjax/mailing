@@ -731,9 +731,6 @@ p.importante {
     margin: 0 0 10px;
 }
 
-p.mobile-visible {
-    display: none;
-}
 @media screen and (max-width: 600px) {
   h1, .h1{font-size:28px!important;}
   h2, .h2{font-size:26px!important;}
@@ -781,9 +778,6 @@ p.mobile-visible {
   }
   td.adjunto-info{
     padding: 10px 10px 10px!important;
-  }
-  p.mobile-visible{
-    display:block!important;
   }
   .mapa-mobile{
     width: 80%!important;
